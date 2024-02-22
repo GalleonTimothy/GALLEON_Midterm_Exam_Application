@@ -4,11 +4,11 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class UserController extends Controller
+class ProductController extends Controller
 {
     public function index()
     {
-        return 'Hello from UserController';
+        return 'Hello from ProductController';
     }
 
     // public function goto()
